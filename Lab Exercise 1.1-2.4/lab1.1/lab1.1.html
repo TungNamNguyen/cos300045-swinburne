@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description"	content="Data Visualisation Exercise 1"/>
+	<meta name="keywords"		  content="HTML, CSS"/>
+	<meta name="author"			  content="Your name here"/>
+	<link rel="stylesheet" href="fe.css">
+	<title>Task 1.1 HTML and CSS Demo Page </title>
+	<!--Insert description of exercise  -->
+
+	
+
+</head>
+
+<body>
+	<script>
+		
+	function table(){
+    	document.getElementById('image').src="pet_ownership_in_australia_table.png";
+    	document.getElementById('cap').innerHTML="Fig 1. Table of Pet Ownership in 2019 and 2021.";}
+	function graph2019()
+	{
+		document.getElementById('image').src="2019.png";
+    	document.getElementById('cap').innerHTML="Fig 2. Graph of Pet OWnership in 2019."
+	}
+	function graph2021()
+	{
+		document.getElementById('image').src="2021.png";
+    	document.getElementById('cap').innerHTML="Fig 3. Graph of Pet Ownership in 2021."
+	}
+	function graph2019and2021()
+	{
+		document.getElementById('image').src="2019 and 2021.png";
+    	document.getElementById('cap').innerHTML="Fig 4. Graph of Pet Ownership in 2019 and 2021."
+	}
+
+      
+
+	</script>
+
+	<h1>Title of Article about Interesting Visualisation</h1>
+	<h2>Author of Interesting Article</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel natus expedita, eveniet reprehenderit, assumenda debitis animi qui dicta odit ex nihil aliquid temporibus, quos consectetur tempore quaerat iusto mollitia quidem.</b>adipisicing elit. Aliquam nesciunt error quidem fuga quos, alias in necessitatibus iste minima esse, ut itaque quia voluptatem, molestiae temporibus repellat excepturi quisquam sunt</p>
+	<p>Lorem ipsum dolor sit amet <i>dwfjwfwjfhwjfhwjfh</i> consectetur adipisicing elit. Quas natus, expedita sit, culpa dicta dolores ut sed laborum consequuntur et corrupti repudiandae unde aut suscipit cupiditate nesciunt facilis, dolorem alias!</p>
+	<ul>
+		<li>geeggew</li>
+		<li>geggege</li>
+		<li>geggegeg</li>
+	</ul>
+	
+	<button class = "button" onclick=table()>Comparison table</button>
+	<button class = "button button1" onclick=graph2019()>Chart for 2019</button>
+	<button class = "button button2" onclick=graph2021()>Chart for 2021</button>
+	<button class = "button button3" onclick=graph2019and2021()>Chart for both 2019 and 2021</button>
+	
+	<figure>
+		<img id ="image" src="pet_ownership_in_australia_table.png" alt="jdwjd" style="width:100%">
+		<figcaption id = "cap">Fig 1. Table of Pet Ownership in 2019 and 2021. <a href = " https://animalmedicinesaustralia.org.au/wp-content/uploads/2021/08/
+			AMAU005-PATP-Report21_v1.41_WEB.pdf">Animal Medicine Australian Report</a></figcaption>
+	</figure>
+	
+	
+
+	<footer>COS30045 Data Visualisation</footer>
+	
+
+</body>
+</html>

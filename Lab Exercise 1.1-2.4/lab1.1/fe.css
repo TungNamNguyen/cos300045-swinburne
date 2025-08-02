@@ -1,0 +1,26 @@
+.h1 {
+    color: red;
+}
+.p{
+    text-align: center;
+}
+.footer {
+    background-color: gray;
+}
+.figcaption {
+    font-style: italic;
+}
+.button {
+    background-color: chartreuse;
+    border: none;
+    
+}
+.button1 {
+    background-color: aquamarine;
+}
+.button2 {
+    background-color: blue;
+}
+.button3 {
+    background-color: blueviolet;
+}
